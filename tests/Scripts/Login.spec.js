@@ -14,5 +14,4 @@ test('Register User', async ({ page }) => {
     await accountInformationPage.expectInfoPageVisible();
     await accountInformationPage.fillAccountInformation(userDetails);
 
-    //comment added by Nilesh
 });
